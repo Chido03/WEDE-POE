@@ -1,0 +1,66 @@
+*{
+background-color: bisque;
+    padding: 40px 20px;
+}
+
+.team-section{
+    text-align: center;
+}
+
+.team-section{
+    margin-bottom: 30px;
+    padding:0 ;
+    margin: 0;
+    box-shadow: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Container{
+    display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+    background-color: azure;
+    padding: 20px;
+    width: 280px;
+border-radius:10px;
+box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+transition: 0.3s ease,box-shadow 0.3s ease;
+}
+
+.card img{
+    border-radius:20px ;
+    width:100px ;
+    height:100px ;
+
+}
+
+.card h2{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.card p{
+    color: bisque;
+}
+
+
+
+.card:hover{
+    box-shadow:0 0 50px rgba(249, 3,3, 0.2);
+}
+
+@media(max-width:768px){
+
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
